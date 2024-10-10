@@ -1,0 +1,19 @@
+/* pages/home/home.wxss */
+.container{
+  position: relative;
+}
+.container .img{
+  width: 100%;
+  max-height: 470px;
+  /* object-fit: fill; */
+}
+.container  .title {
+  width: 100%;
+  font-size: 20px;
+  color: #ffffff;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}

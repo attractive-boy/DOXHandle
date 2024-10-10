@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/index/index",
+    "pages/datecheck/index"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "文档校验",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#000000",
+    "backgroundColor": "#F6F6F6",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "images/index.png",
+        "selectedIconPath": "images/index.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/docx.png",
+        "selectedIconPath": "images/docx.png",
+        "text": "文件检查"
+      },
+      {
+        "pagePath": "pages/datecheck/index",
+        "iconPath": "images/date.png",
+        "selectedIconPath": "images/date.png",
+        "text": "日期检查"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "lazyCodeLoading": "requiredComponents",
+  "resizable": true
+}

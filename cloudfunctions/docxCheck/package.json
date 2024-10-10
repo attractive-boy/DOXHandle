@@ -1,0 +1,17 @@
+{
+  "name": "docxCheck",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "adm-zip": "^0.5.16",
+    "adm-zip-iconv": "^0.4.9",
+    "mammoth": "^1.8.0",
+    "wx-server-sdk": "latest"
+  }
+}

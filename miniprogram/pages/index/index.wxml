@@ -1,0 +1,16 @@
+<view class="container">
+  <button class="selectFile" type="primary" bindtap="onTapButton">选择文件</button>
+  <input type="file"/>
+  
+  <!-- 识别结果 -->
+  <view class="result-title">识别结果：</view>
+  
+  <view class="result-card" wx:for="{{resultList}}" wx:key="index">
+    <view class="card-header">{{item.fileName}}</view>
+    <view class="result-content" wx:for="{{item.spellCheckResults}}" wx:key="index1" >
+        <text>{{item.beforeError}}<text class="error-text">{{item.errorText}}</text>{{item.afterError}}</text>
+        <view class="right-text" >{{item.changeText}}</view>
+        <view class="divider"></view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,7 @@
+<!--pages/home/home.wxml-->
+<view>
+<view class="container">
+<image class="img" src="../../images/bg.png"></image>
+<view class="title">未当案件卷宗辅助校核系统</view>
+</view>
+</view>

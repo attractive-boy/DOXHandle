@@ -1,0 +1,43 @@
+.container {
+  padding: 16px;
+}
+
+.selectFile {
+  margin-bottom: 20px;
+}
+
+.result-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.result-card {
+  padding: 16px;
+  background-color: #f9f9f9;
+  margin-top: 10px;
+}
+
+.card-header {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.result-content {
+  display: flex;
+  flex-direction: column;
+  font-size: small;
+}
+.right-text{
+    margin-top: 10px;
+}
+.error-text{
+    background-color: #ffe6e6;
+}
+.divider {
+  height: 1px; /* 分割线的高度 */
+  background-color: #ccc; /* 分割线的颜色 */
+  margin: 10px 0; /* 上下的间距 */
+}

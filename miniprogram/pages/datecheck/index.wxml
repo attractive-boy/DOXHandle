@@ -1,0 +1,16 @@
+<view class="container">
+  <block wx:for="{{form}}" wx:key="key" wx:for-index="formIdx">
+    <view class="form-section">
+      <text class="form-title" style="font-size: small;">{{item.name}}</text>
+      <block wx:for="{{item.date}}" wx:key="key" wx:for-item="subitem" wx:for-index="subitemIndex" >
+        <view class="form-item">
+        <view class="date-picker">
+            <text style="font-size: smaller;">{{subitem.name}}</text>
+            <input type="text" value="{{subitem.date}}" bindinput="handleDateChange" data-form-name="{{item.name}}" data-date-index="{{subitemIndex}}"/>
+          </view>
+        </view>
+      </block>
+    </view>
+  </block>
+  <button class="submit-button" bindtap="submitForm">提交</button>
+</view>
